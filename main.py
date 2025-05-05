@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from routes import viral_idea_finder,title_generation,thumbnail,script
 from routes import viral_idea_finder,auth
